@@ -1,9 +1,11 @@
+import { MaterialDemo } from './components/material-demo/material-demo';
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [
+    MaterialDemo
+  ],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
