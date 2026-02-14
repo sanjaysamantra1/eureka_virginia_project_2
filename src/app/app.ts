@@ -3,6 +3,7 @@ import { Component, signal } from '@angular/core';
 import { UnitTestingDemo } from './components/unit-testing-demo/unit-testing-demo';
 import { CounterComponent } from './components/counter/counter.component';
 import { TodoCrudComponent } from './components/todo-crud/todo-crud.component';
+import { EmployeeCrudComponent } from './components/employee-crud/employee-crud.component';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +11,8 @@ import { TodoCrudComponent } from './components/todo-crud/todo-crud.component';
     // MaterialDemo
     // UnitTestingDemo
     // CounterComponent
-    TodoCrudComponent
+    // TodoCrudComponent
+    EmployeeCrudComponent
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
